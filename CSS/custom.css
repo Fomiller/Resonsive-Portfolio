@@ -1,5 +1,9 @@
 /* Custom CSS for Responsive Portfolio */
 
+body {
+    background-color: red;
+}
+
 .navbar_margin-btm {
     margin-bottom: 50px;
 }
