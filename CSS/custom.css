@@ -1,0 +1,10 @@
+/* Custom CSS for Responsive Portfolio */
+
+.navbar_margin-btm {
+    margin-bottom: 50px;
+}
+
+.portfolio {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
