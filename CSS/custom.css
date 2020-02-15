@@ -8,3 +8,46 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.jumbotron{
+    background: #222;
+    color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    height: 60%;
+    border-radius: 0;
+}
+
+.jumbotron__h1{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .5rem;
+    font-size: 72px;
+    color: #f8f9fa;
+    margin-bottom: 3rem;
+}
+
+.navbar__bg-dark{
+    background-color: #222;
+}
+
+.nav-link{
+    color: white;
+}
+
+.card__shadow{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card__shadow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card__shadow-nohover{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.active:hover{
+    color: red;
+}
