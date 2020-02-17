@@ -10,7 +10,7 @@
 }
 
 .jumbotron{
-    background: #222;
+    background: #111;
     color: #f8f9fa;
     font-family: 'Roboto', sans-serif;
     height: 60%;
@@ -27,7 +27,7 @@
 }
 
 .navbar__bg-dark{
-    background-color: #222;
+    background-color: #111;
 }
 
 .nav-link{
@@ -48,6 +48,21 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.active:hover{
-    color: red;
+/* .active:hover{
+    color: blue;
+} */
+
+footer{
+    background-color: #111;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #eee;
+    text-decoration: none;
 }
