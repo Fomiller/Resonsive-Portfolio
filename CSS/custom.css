@@ -34,6 +34,18 @@
     color: white;
 }
 
+nav a:hover{
+    color: #eee;
+}
+
+.social-icon a{
+    color: white;
+}
+
+.social-icon a:hover{
+    color: #eee;
+}
+
 .card__shadow{
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -47,10 +59,6 @@
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
-/* .active:hover{
-    color: blue;
-} */
 
 footer{
     background-color: #111;
