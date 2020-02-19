@@ -1,5 +1,71 @@
 /* Custom CSS for Responsive Portfolio */
 
+body {
+    background-color: #010101;
+    color: #ffffff;
+}
+
+h2 {
+    color: #0CA27A;
+}
+
+img{
+    border-radius: .5em;
+}
+
+.btn--green{
+    background-color: #0CA27A;
+    border-color: #0CA27A;
+    color: white;
+}
+
+.btn--green:hover{
+    background-color: #04271F;
+    border-color: #04271F;
+    color: #0CA27A;
+}
+
+.text-muted {
+    color: #0CA27A!important;
+}
+
+.text-muted:hover{
+    color: #7FFCBA!important;
+}
+
+.jumbotron{
+    background-color: #010101;
+    color: #83CFC2;
+    font-family: 'Roboto', sans-serif;
+    height: 60%;
+    border-radius: 0;
+}
+
+.jumbotron h1{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .5rem;
+    font-size: 72px;
+    color: #7FFCBA;
+    margin-bottom: 3rem;
+}
+
+.jumbotron .btn {
+    background-color: #0CA27A;
+    border-color: #0CA27A;
+    color: white;
+}
+
+.jumbotron .btn:hover{
+    background-color: #04271F;
+    border-color: #04271F;
+    color: #0CA27A;
+}
+
+.container{
+    background-color: #010101;
+}
+
 .navbar_margin-btm {
     margin-bottom: 50px;
 }
@@ -9,29 +75,17 @@
     margin-bottom: 1rem;
 }
 
-.jumbotron{
-    background: #111;
-    color: #f8f9fa;
-    font-family: 'Roboto', sans-serif;
-    height: 60%;
-    border-radius: 0;
-}
-
-.jumbotron__h1{
-    text-align: center;
-    font-weight: 500;
-    letter-spacing: .5rem;
-    font-size: 72px;
-    color: #f8f9fa;
-    margin-bottom: 3rem;
-}
 
 .navbar__bg-dark{
-    background-color: #111;
+    background-color: #010101;
 }
 
 .nav-link{
-    color: white;
+    color: #57EFB0;
+}
+
+.nav-link:hover{
+    color: #7FFCBA;
 }
 
 nav a:hover{
@@ -44,6 +98,16 @@ nav a:hover{
 
 .social-icon a:hover{
     color: #eee;
+}
+
+.card {
+    background-color: #010101;
+    color: white;
+}
+
+.card h5:hover{
+    color: #7FFCBA;
+    cursor: pointer;
 }
 
 .card__shadow{
@@ -60,17 +124,21 @@ nav a:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+label {
+    color: #0CA27A;
+}
+
 footer{
-    background-color: #111;
+    background-color: #010101;
     color: white;
 }
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: #0CA27A;
 }
 
 footer a:hover {
-    color: #eee;
+    color: #7FFCBA;
     text-decoration: none;
 }
