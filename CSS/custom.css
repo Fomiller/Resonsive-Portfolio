@@ -105,6 +105,16 @@ nav a:hover{
     color: white;
 }
 
+.card-body a{
+    text-decoration: none;
+    color: #0CA27A;
+}
+
+.card-body a:hover{
+    color: #7FFCBA;
+    text-decoration: none;
+}
+
 .card h5:hover{
     color: #7FFCBA;
     cursor: pointer;
